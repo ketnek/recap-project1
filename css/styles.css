@@ -33,6 +33,8 @@ body {
   flex-shrink: 0;
 }
 
+/* Quiz App Page */
+
 /* Header */
 
 .header {
@@ -54,14 +56,14 @@ body {
 /* main */
 
 .main {
-  margin: 11rem 0 11rem 0;
+  margin: 10rem 0 10rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4.5rem;
+  gap: 3.5rem;
 }
 
-.main__card {
+.card {
   min-height: 250px;
   width: 500px;
   background-color: var(--brown);
