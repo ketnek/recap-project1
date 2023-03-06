@@ -1,0 +1,48 @@
+/* Color variables */
+
+:root {
+  --green: #606C38;
+  --dark-green: #283618;
+  --cream: #FEFAE0;
+  --light-brown: #DDA15E;
+  --brown: #BC6C25;
+}
+
+/* General styles */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--cream);
+}
+
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+}
+
+/* Header */
+
+.header {
+  background-color: var(--green);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.header__headline {
+  color: var(--cream);
+  font-size: 2.5rem;
+}
