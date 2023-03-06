@@ -23,7 +23,7 @@ html {
 body {
   margin: 0 auto 0 auto;
   padding: 0;
-  max-width: 600px;
+  max-width: 1000px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,4 +45,42 @@ body {
 .header__headline {
   color: var(--cream);
   font-size: 2.5rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--green);
+  color: var(--cream);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.nav__link--activ {
+  background-color: var(--brown);
+}
+
+.nav__link--hover:hover {
+  background-color: var(--brown);
+}
+
+
+.nav__icon {
+  height: 60px;
+  width: 60px;
+  fill: var(--cream);
 }
