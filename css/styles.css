@@ -18,17 +18,19 @@
 
 html {
   background-color: var(--cream);
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0 auto 0 auto;
   padding: 0;
+  min-height: 1200px;
   max-width: 1000px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 10px 5px var(--light-brown);
+  flex-shrink: 0;
 }
 
 /* Header */
@@ -52,16 +54,15 @@ body {
 /* main */
 
 .main {
-  margin: 12rem 0 12rem 0;
+  margin: 11rem 0 11rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4.5rem;
-
 }
 
 .main__card {
-  height: 250px;
+  min-height: 250px;
   width: 500px;
   background-color: var(--brown);
   border-radius: 20px;
