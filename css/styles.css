@@ -5,7 +5,7 @@
   --dark-green: #283618;
   --cream: #FEFAE0;
   --light-brown: #DDA15E;
-  --brown: #BC6C25;
+  --brown: #bc6b25;
 }
 
 /* General styles */
@@ -24,11 +24,11 @@ body {
   margin: 0 auto 0 auto;
   padding: 0;
   max-width: 1000px;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  border: 3px solid black;
+  align-items: center;
+  box-shadow: 0px 0px 10px 5px var(--light-brown);
 }
 
 /* Header */
@@ -40,11 +40,67 @@ body {
   top: 0;
   left: 0;
   text-align: center;
+  z-index: 1;
 }
 
 .header__headline {
   color: var(--cream);
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin: 1.5rem;
+}
+
+/* main */
+
+.main {
+  margin: 12rem 0 12rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4.5rem;
+
+}
+
+.main__card {
+  height: 250px;
+  width: 500px;
+  background-color: var(--brown);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card__icon {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  fill: var(--cream);
+}
+
+.card__question {
+  color: var(--cream);
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+.card__button {
+  border: 3px solid var(--cream);
+  border-radius: 10px;
+  background-color: var(--brown);
+  color: var(--cream);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card__button--click:active {
+  color: var(--brown);
+  background-color: var(--cream);
 }
 
 /* Footer */
