@@ -6,6 +6,7 @@
   --cream: #FEFAE0;
   --light-brown: #DDA15E;
   --brown: #bc6b25;
+  --brown-hover: #bc6b2580;
 }
 
 /* General styles */
@@ -23,13 +24,7 @@ html {
 
 body {
   margin: 0 auto 0 auto;
-  padding: 0;
   max-width: 1000px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0px 0px 10px 5px var(--light-brown);
-  flex-shrink: 0;
 }
 
 /* Quiz App Page */
@@ -60,7 +55,9 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 3.5rem;
-  min-height: 1200px;
+  height: 100%;
+  min-height: 100vh;
+  box-shadow: 0px 0px 10px 5px var(--light-brown);
 }
 
 .card {
@@ -124,21 +121,21 @@ body {
   gap: 7rem;
 }
 
-.nav__link {
+.footer__nav-link {
   text-decoration: none;
   padding: 1rem 2rem;
 }
 
-.nav__link--activ {
+.footer__nav-link--activ {
   background-color: var(--brown);
 }
 
-.nav__link--hover:hover {
+.footer__nav-link--hover:hover {
   background-color: var(--brown);
 }
 
 
-.nav__icon {
+.footer__nav-icon {
   height: 40px;
   width: 40px;
   fill: var(--cream);
