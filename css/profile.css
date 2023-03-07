@@ -38,3 +38,32 @@
 .about__text {
   font-size: 1.2rem;
 }
+
+/* Counter */
+
+.counter {
+  display: flex;
+  gap: 5rem;
+}
+
+.counter__display {
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: var(--brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.counter__icon {
+  fill: var(--cream);
+  height: 40px;
+  width: 40px;
+}
+
+.counter__text {
+  color: var(--cream);
+  font-size: 2rem;
+}
