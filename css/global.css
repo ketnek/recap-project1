@@ -1,0 +1,28 @@
+/* Color variables */
+
+:root {
+  --green: #606C38;
+  --dark-green: #283618;
+  --cream: #FEFAE0;
+  --light-brown: #DDA15E;
+  --brown: #bc6b25;
+  --brown-hover: #bc6b2580;
+}
+
+/* General styles */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--cream);
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto 0 auto;
+  max-width: 1000px;
+}

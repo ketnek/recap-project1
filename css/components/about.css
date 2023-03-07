@@ -1,0 +1,14 @@
+/* About */
+
+.about {
+  margin: 0 10rem;
+  color: var(--brown);
+}
+
+.about__headline {
+  font-size: 2rem;
+}
+
+.about__text {
+  font-size: 1.2rem;
+}

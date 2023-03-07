@@ -1,0 +1,44 @@
+/* Card */
+
+.card {
+  min-height: 250px;
+  width: 500px;
+  background-color: var(--brown);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card__icon {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 0.5rem;
+  right: 1rem;
+  fill: var(--cream);
+}
+
+.card__question {
+  color: var(--cream);
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem 1rem 2rem 1rem;
+}
+
+.card__button {
+  border: 3px solid var(--cream);
+  border-radius: 10px;
+  background-color: var(--brown);
+  color: var(--cream);
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card__button--click:active {
+  color: var(--brown);
+  background-color: var(--cream);
+}

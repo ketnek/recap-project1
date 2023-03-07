@@ -1,0 +1,17 @@
+/* Header */
+
+.header {
+  background-color: var(--green);
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  text-align: center;
+  z-index: 1;
+}
+
+.header__headline {
+  color: var(--cream);
+  font-size: 3rem;
+  margin: 0.5rem;
+}

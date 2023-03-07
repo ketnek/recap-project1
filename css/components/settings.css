@@ -1,0 +1,8 @@
+/* Settings */
+
+.settings {
+  border: 3px solid black;
+  align-self: flex-start;
+}
+
+.settings__mode {}

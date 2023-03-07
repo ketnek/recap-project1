@@ -1,0 +1,37 @@
+/* Footer */
+
+.footer {
+  background-color: var(--green);
+  color: var(--cream);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+
+.footer__nav-link {
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+.footer__nav-link--activ {
+  background-color: var(--brown);
+}
+
+.footer__nav-link--hover:hover {
+  background-color: var(--brown);
+}
+
+
+.footer__nav-icon {
+  height: 40px;
+  width: 40px;
+  fill: var(--cream);
+}
