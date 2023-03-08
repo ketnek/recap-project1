@@ -1,0 +1,28 @@
+/* Counter */
+
+.counter {
+  display: flex;
+  gap: 5rem;
+}
+
+.counter__display {
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: var(--brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.counter__display-icon {
+  fill: var(--cream);
+  height: 40px;
+  width: 40px;
+}
+
+.counter__display-value {
+  color: var(--cream);
+  font-size: 2rem;
+}
